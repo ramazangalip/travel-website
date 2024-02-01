@@ -1,0 +1,495 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>Seyahat</span> Acentesi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Rezervasyon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Kampanyalar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Hizmetler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Fotoğraflar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımızda</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="arama yapın">
+              <button class="btn btn-primary" type="button">Ara</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+    <div class="home">
+        <div class="content">
+            <h5>Dünyayı Keşfetmeye başla</h5>
+            <h1>Keşfet <span class="changecontent"></span></h1>
+            <p>Dünyanın büyülü güzelliklerini görmeye şimdi başla.</p>
+            <a href="#book">Rezervasyon Yap</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>Rezervasyon</span> Yap</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/book-img.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+
+              <input type="text" class="form-control" placeholder="Nereye seyahat etmek istersiniz?" required><br>
+              <input type="text" class="form-control" placeholder="Kaç gün konaklamak istersiniz?" required><br>
+              <input type="date" class="form-control" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="İsminizi ve rezervasyon detaylarını yazınız."></textarea>
+              <input type="submit" value="Rezervasyon Yap" class="submit" required>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>P</span>aketlerimiz</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/uk.png" alt="">
+              <div class="card-body">
+                <h3>İngiltere</h3>
+                <p>
+                  İngilterenin güzelliklerini keşfetmeye şimdi başla
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Fiyat: <strong>₺35.000</strong></h6>
+                <a href="#book">Rezervasyon Yap</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/france.png" alt="">
+              <div class="card-body">
+                <h3>Fransa</h3>
+                <p>Fransanın güzelliklerini şimdi keşfet</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Fiyat: <strong>₺40.000</strong></h6>
+                <a href="#book">Rezervasyon Yap</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/pakistan.png" alt="">
+              <div class="card-body">
+                <h3>Pakistan</h3>
+                <p>Pakistanın doğal güzelliklerini şimdi keşfet</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Fiyat: <strong>₺10.000</strong></h6>
+                <a href="#book">Rezervasyon Yap</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/italy.png" alt="">
+              <div class="card-body">
+                <h3>İtalya</h3>
+                <p>İtalyanın güzelliklerini şimdi keşfet</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Fiyat: <strong>₺30.000</strong></h6>
+                <a href="#book">Rezervasyon Yap</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/india.png" alt="">
+              <div class="card-body">
+                <h3>Hindistan</h3>
+                <p>Hindistanın tarihi güzelliklerini şimdi keşfet.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Fiyat: <strong>₺15.000</strong></h6>
+                <a href="#book">Rezervasyon yap</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/us.png" alt="">
+              <div class="card-body">
+                <h3>ABD</h3>
+                <p>ABD'nin büyülü dünyasına şimdi giriş yap</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked "></i>
+                  <i class="fa-solid fa-star checked "></i>
+                </div>
+                <h6>Price: <strong>₺50.000</strong></h6>
+                <a href="#book">Rezervasyon Yap</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>H</span>izmetlerimiz</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>5 yıldızlı otel deneyimi</h3>
+                <p>En rahat otellerde yaşamanın güzelligini yaşayın</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Yiyecek & İçeçek</h3>
+                <p>Gittiğiniz yerlerde en güzel yiyecek ve içecekleri yiyin</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Güvenli Gezi Deneyimi</h3>
+                <p>Uzman rehberler eşliğinde seyahatinizi gerçekleşirin</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Dünyayı dolaş</h3>
+                <p>En uygun fiyatlarla dünyayı gezmeye şimdi başlayın</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Hızlı ve rahat yolculuk</h3>
+                <p>En rahat uçak deneyimini yaşayın.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Macera</h3>
+                <p>Gittiğiniz yerlerde extreme sporlara erişim sağlayın.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>G</span>aleri</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g1.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g2.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g3.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g4.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g5.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g6.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+ 
+
+
+
+
+
+
+
+
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1>H <span>akkımızda</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/about-img.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>Seyahat Acentemizde işleyiş nasıldır?</h2>
+            <p>Sitemiz üzerinden gerçekleştirmiş olduğunuz başvurular uzman ekiplerimiz tarafından  incelenip en yakın zamanda size geri dönüş yapılır.</p>
+            <button id="about-btn">Daha Fazla Bilgi</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+ 
+
+    <footer id="footer">
+      <h1><span>Seyahat</span> Acentesi</h1>
+      <p>Seyahat Acentemizden rahatlıkla hizmet alabilirsiniz</p>
+     
+      <div class="credit">
+        <p>Designed By <a href="https://www.instagram.com/rsgsoftware5/">RSG SOFTWARE</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Copyright RSG SOFTWARE. All Rights Reserved</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
